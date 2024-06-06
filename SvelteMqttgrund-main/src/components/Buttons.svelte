@@ -21,7 +21,7 @@
     function stopMessage() {
         onSend('driver', 'stop');
     }
-
+    // Key inputs and their corresponding message
     onMount(() => {
         const handleKeydown = (event) => {
             if (!keyState[event.key]) {
@@ -53,7 +53,7 @@
                 stopMessage();
             }
         };
-
+        
         window.addEventListener('keydown', handleKeydown);
         window.addEventListener('keyup', handleKeyup);
 

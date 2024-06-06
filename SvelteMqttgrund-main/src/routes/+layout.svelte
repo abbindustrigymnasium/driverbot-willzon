@@ -25,7 +25,7 @@ function drawerOpen(): void {
 		<!-- App Bar -->
 		
     <AppBar>
-		
+		<!-- General layout for the website-->
 		<svelte:fragment slot="trail">
     <div class="flex items-center">
         <button class=" btn btn-sm mr-4" on:click={drawerOpen}>
